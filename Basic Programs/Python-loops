@@ -1,0 +1,14 @@
+# you are given a number n
+# Read an integer . For all non-negative integers , print . See the sample for details
+
+n = int(input())
+for i in range(n):
+    print(i**2)
+    
+# OUTPUT
+# 4  [input]
+--------------------------~~~~~
+# 0 [remeber python index start from 0 ,so 0**0 is 0]
+# 1
+# 4
+# 9
